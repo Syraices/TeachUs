@@ -20,6 +20,44 @@
   height: 370px;
   box-shadow: 0px 3px 8px #2a2a2a;
 }
+
+.frosty h1{
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+.frosty h2{
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+.navbar{
+  margin: 0;
+}
+.frosty{
+
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.btn{
+  border-radius: 0;
+}
+.feature{
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+body{
+  background: image_url('bg.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+
+
+
+
+
+
 /*.motto{
   font-size: 75px;
   font-family: 'Inconsolata', monospace;
@@ -45,24 +83,3 @@
 /*.motto{
   color: #E3E85A;
 }*/
-.frosty h1{
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 100;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
-}
-.frosty h2{
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 200;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
-}
-.navbar{
-  margin: 0;
-}
-.frosty{
-
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-}
-.btn{
-  border-radius: 0;
-}
