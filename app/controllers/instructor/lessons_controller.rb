@@ -2,6 +2,7 @@ class Instructor::LessonsController < ApplicationController
   before_action :authenticate_user!
   before_action :require_authorized_for_current_section, only: [:create]
   before_action :require_authorized_for_current_lesson, only: [:update]
+  skip_before_action :verify_authenticity_token
 
 
 
@@ -30,7 +31,7 @@ class Instructor::LessonsController < ApplicationController
 
   def require_authorized_for_current_section
     if current_section.course.user != current_user
-      return render plain: 'WHAT ARE YOU DOING WHERE YOU DON\'T BELONG?', status: :unauthorized
+      render plain: 'WHAT ARE YOU DOING WHERE YOU DON\'T BELONG?', status: :unauthorized
     end
   end
 
